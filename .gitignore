@@ -1,0 +1,13 @@
+# Large generated media kept locally
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.wav
+
+# Temporary/runtime artifacts
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
