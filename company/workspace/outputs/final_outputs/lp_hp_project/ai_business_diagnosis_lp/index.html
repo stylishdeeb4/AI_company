@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI業務改善診断 | 無料AI活用チェック</title>
+    <meta
+      name="description"
+      content="AIを仕事に使いたいけれど何から始めればいいかわからない中小企業・個人事業主向けに、業務棚卸し、AI活用ポイント、テンプレート、運用ルールを整理する診断サービスです。"
+    />
+    <meta property="og:title" content="AI業務改善診断 | 無料AI活用チェック" />
+    <meta
+      property="og:description"
+      content="あなたの仕事の中で、AIに任せられる作業を見つけて、すぐ使える形に整える診断サービス。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/ai-diagnosis-hero.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="AI業務改善診断 トップへ">
+        <span class="logo-mark">AI</span>
+        <span>AI業務改善診断</span>
+      </a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="#check">無料チェック</a>
+        <a href="#service">サービス</a>
+        <a href="#price">料金</a>
+        <a class="nav-cta" href="#check">診断する</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">個人事業主・小規模事業者向け</p>
+          <h1>AIを使いたいけど、何から始めればいいかわからない事業者へ</h1>
+          <p class="lead">
+            いまの業務を整理し、AIに任せられる作業を見つけ、
+            すぐ使えるテンプレートと運用ルールまで整えます。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#check">無料AI活用チェックを受ける</a>
+            <a class="button secondary" href="#service">サービス内容を見る</a>
+          </div>
+          <dl class="hero-metrics" aria-label="サービスの特徴">
+            <div>
+              <dt>3分</dt>
+              <dd>無料チェック</dd>
+            </div>
+            <div>
+              <dt>3〜5個</dt>
+              <dd>改善候補を整理</dd>
+            </div>
+            <div>
+              <dt>30日</dt>
+              <dd>導入支援プランあり</dd>
+            </div>
+          </dl>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/ai-diagnosis-hero.png" alt="業務の棚卸しからAI活用ポイントを整理する診断イメージ" />
+        </figure>
+      </section>
+
+      <section class="section problem" aria-labelledby="problem-title">
+        <div class="section-head">
+          <p class="eyebrow">よくある状態</p>
+          <h2 id="problem-title">ChatGPTを触っただけで、仕事は変わっていない</h2>
+          <p>
+            AIツールを増やす前に、まずは業務の棚卸しが必要です。
+            どの作業をAIに任せ、どこを人が判断するかを整理します。
+          </p>
+        </div>
+        <div class="issue-grid">
+          <article>
+            <span>01</span>
+            <h3>使い道が曖昧</h3>
+            <p>「何に使えばいいか」が決まらず、試して終わってしまう。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>毎回ゼロから作業</h3>
+            <p>メール、投稿、資料作成を毎回手作業で進めている。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>ルールがない</h3>
+            <p>機密情報や著作権が不安で、チームに使わせにくい。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section check-section" id="check" aria-labelledby="check-title">
+        <div class="section-head">
+          <p class="eyebrow">無料AI活用チェック</p>
+          <h2 id="check-title">あなたの業務で、AIが効きやすい場所を確認します</h2>
+          <p>
+            回答後、このページ上で簡易診断タイプを表示します。
+            実運用ではGoogleフォームや予約フォームに接続してください。
+          </p>
+        </div>
+
+        <form class="diagnosis-form" id="diagnosis-form">
+          <div class="form-grid">
+            <label>
+              お名前
+              <input name="name" type="text" placeholder="山田 太郎" required />
+            </label>
+            <label>
+              メールアドレス
+              <input name="email" type="email" placeholder="example@example.com" required />
+            </label>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              業種
+              <select name="industry" required>
+                <option value="">選択してください</option>
+                <option>士業・コンサル</option>
+                <option>店舗・美容・整体</option>
+                <option>工務店・建設・不動産</option>
+                <option>講師・スクール</option>
+                <option>EC・物販</option>
+                <option>クリエイター・制作業</option>
+                <option>その他</option>
+              </select>
+            </label>
+            <label>
+              AI利用状況
+              <select name="aiLevel" required>
+                <option value="">選択してください</option>
+                <option value="0">まだ使っていない</option>
+                <option value="1">触ったことはある</option>
+                <option value="2">たまに仕事で使っている</option>
+                <option value="3">ほぼ毎日使っている</option>
+                <option value="4">社内・チームで使っている</option>
+              </select>
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>時間がかかっている業務</legend>
+            <div class="checkbox-grid">
+              <label><input type="checkbox" name="workload" value="reply" />メール・問い合わせ返信</label>
+              <label><input type="checkbox" name="workload" value="content" />SNS・ブログ・YouTube</label>
+              <label><input type="checkbox" name="workload" value="docs" />提案書・資料作成</label>
+              <label><input type="checkbox" name="workload" value="manual" />採用・教育・マニュアル</label>
+              <label><input type="checkbox" name="workload" value="admin" />経理・事務作業</label>
+              <label><input type="checkbox" name="workload" value="schedule" />予約・スケジュール調整</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>AI導入で不安なこと</legend>
+            <div class="checkbox-grid">
+              <label><input type="checkbox" name="risk" value="start" />何から始めればいいかわからない</label>
+              <label><input type="checkbox" name="risk" value="security" />情報漏えいが不安</label>
+              <label><input type="checkbox" name="risk" value="copyright" />著作権や利用ルールが不安</label>
+              <label><input type="checkbox" name="risk" value="team" />社員や外注先に教えられない</label>
+              <label><input type="checkbox" name="risk" value="roi" />費用対効果がわからない</label>
+              <label><input type="checkbox" name="risk" value="quality" />正しい回答か判断できない</label>
+            </div>
+          </fieldset>
+
+          <label>
+            直近1か月で整えたいこと
+            <select name="goal" required>
+              <option value="">選択してください</option>
+              <option value="map">AIで効率化できる業務を知りたい</option>
+              <option value="prompt">すぐ使えるプロンプトがほしい</option>
+              <option value="rule">社内AI利用ルールを作りたい</option>
+              <option value="content">発信・集客をAIで楽にしたい</option>
+              <option value="manual">業務マニュアルを整えたい</option>
+              <option value="consult">個別に相談したい</option>
+            </select>
+          </label>
+
+          <label>
+            現在の課題
+            <textarea name="memo" rows="4" placeholder="例: 問い合わせ返信とSNS投稿に時間がかかっています"></textarea>
+          </label>
+
+          <label class="consent">
+            <input type="checkbox" name="consent" required />
+            送信内容は診断結果の作成と連絡のために使用します。機密情報や個人情報の詳細は入力しません。
+          </label>
+
+          <button class="button primary form-submit" type="submit">診断結果を表示する</button>
+        </form>
+
+        <aside class="result-panel" id="result-panel" hidden>
+          <p class="eyebrow">診断結果</p>
+          <h3 id="result-title"></h3>
+          <p id="result-copy"></p>
+          <a class="button primary" href="mailto:example@example.com?subject=AI業務改善診断の相談希望">個別相談を希望する</a>
+        </aside>
+      </section>
+
+      <section class="section" id="service" aria-labelledby="service-title">
+        <div class="section-head">
+          <p class="eyebrow">サービス内容</p>
+          <h2 id="service-title">AIツールの説明ではなく、仕事への入れ方を設計します</h2>
+        </div>
+        <div class="service-grid">
+          <article>
+            <h3>業務の棚卸し</h3>
+            <p>繰り返し作業、属人化、時間のかかる作業を整理します。</p>
+          </article>
+          <article>
+            <h3>AI化ポイント発見</h3>
+            <p>AIに任せる作業、人が判断する作業を分けます。</p>
+          </article>
+          <article>
+            <h3>テンプレート作成</h3>
+            <p>メール、投稿、資料、マニュアル用のプロンプトを作ります。</p>
+          </article>
+          <article>
+            <h3>運用ルール整備</h3>
+            <p>機密情報、著作権、チェック体制の基本ルールを整えます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section price" id="price" aria-labelledby="price-title">
+        <div class="section-head">
+          <p class="eyebrow">料金</p>
+          <h2 id="price-title">小さく試して、必要な分だけ導入できます</h2>
+        </div>
+        <div class="price-grid">
+          <article>
+            <h3>無料AI活用チェック</h3>
+            <p class="price-tag">0円</p>
+            <ul>
+              <li>3分の簡易チェック</li>
+              <li>AI活用タイプの確認</li>
+              <li>個別相談への案内</li>
+            </ul>
+          </article>
+          <article class="featured">
+            <h3>AI業務改善ミニ診断</h3>
+            <p class="price-tag">30,000円〜</p>
+            <ul>
+              <li>60分ヒアリング</li>
+              <li>改善候補3〜5個</li>
+              <li>すぐ使えるプロンプト3個</li>
+            </ul>
+          </article>
+          <article>
+            <h3>AI導入スターターキット</h3>
+            <p class="price-tag">100,000円〜</p>
+            <ul>
+              <li>導入ロードマップ</li>
+              <li>プロンプト10個</li>
+              <li>AI利用ルール</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section flow" aria-labelledby="flow-title">
+        <div class="section-head">
+          <p class="eyebrow">進め方</p>
+          <h2 id="flow-title">無料チェックから導入までの流れ</h2>
+        </div>
+        <ol class="flow-list">
+          <li><span>1</span>無料チェックに回答</li>
+          <li><span>2</span>課題とAI活用タイプを確認</li>
+          <li><span>3</span>必要に応じて個別相談</li>
+          <li><span>4</span>ミニ診断または導入支援を実施</li>
+        </ol>
+      </section>
+
+      <section class="section faq" aria-labelledby="faq-title">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">よくある質問</h2>
+        </div>
+        <details>
+          <summary>AI初心者でも大丈夫ですか。</summary>
+          <p>大丈夫です。ツールの使い方より先に、どの業務に使うべきかを整理します。</p>
+        </details>
+        <details>
+          <summary>機密情報を入力する必要はありますか。</summary>
+          <p>ありません。フォームや初回相談では、顧客名簿や個人情報の詳細は入力しないでください。</p>
+        </details>
+        <details>
+          <summary>どんな業種に向いていますか。</summary>
+          <p>士業、店舗、講師業、EC、制作業など、文章作成・顧客対応・発信が多い事業と相性が良いです。</p>
+        </details>
+        <details>
+          <summary>必ず売上が上がりますか。</summary>
+          <p>売上向上を保証するものではありません。業務整理、時間削減、品質安定、属人化解消を目的に支援します。</p>
+        </details>
+      </section>
+
+      <section class="section caution" aria-labelledby="caution-title">
+        <h2 id="caution-title">安心して使うための注意事項</h2>
+        <p>
+          医療、法律、金融、税務など専門判断が必要な内容は、必ず専門家の確認を前提にしてください。
+          AIの回答はそのまま使わず、事実確認と人の判断を挟む運用をおすすめします。
+        </p>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-cta-title">
+        <h2 id="final-cta-title">まずは、あなたの業務でAIが効く場所を確認しませんか。</h2>
+        <a class="button primary" href="#check">無料AI活用チェックを受ける</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>AI業務改善診断</p>
+      <p>このLPは初期検証用です。実運用では問い合わせ先、予約リンク、プライバシーポリシーを設定してください。</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
