@@ -424,6 +424,34 @@ fieldset {
   font-size: 13px;
 }
 
+.site-footer p {
+  margin: 0;
+}
+
+.footer-brand {
+  margin-bottom: 6px;
+  color: var(--white);
+  font-weight: 800;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  padding: 6px 10px;
+  color: var(--white);
+  font-weight: 700;
+}
+
 @media (max-width: 900px) {
   .nav {
     display: none;

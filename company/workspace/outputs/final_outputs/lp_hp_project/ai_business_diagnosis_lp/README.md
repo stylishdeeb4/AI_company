@@ -24,6 +24,12 @@
 - `script.js`: 簡易診断結果表示
 - `assets/ai-diagnosis-hero.png`: ファーストビュー画像
 
+## SNSリンク
+- YouTube: https://youtube.com/@zero_ai_work?si=kjpFJVSwKcxenAoQ
+- X: https://x.com/0lbzt?s=11
+- Instagram: https://www.instagram.com/zero_ai_work?igsh=OWYzZnlhcXY4Ymt6&utm_source=qr
+- TikTok: 未設定
+
 ## 完了条件
 - スマホ、タブレット、PCで読みやすい
 - CTAが明確
