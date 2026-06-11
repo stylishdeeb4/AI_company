@@ -3,46 +3,50 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI業務改善診断 | 無料AI活用チェック</title>
+    <title>AI業務改善診断 | 小規模事業者向けAI活用HP</title>
     <meta
       name="description"
-      content="AIを仕事に使いたいけれど何から始めればいいかわからない中小企業・個人事業主向けに、業務棚卸し、AI活用ポイント、テンプレート、運用ルールを整理する診断サービスです。"
+      content="AIを仕事に使いたい個人事業主・小規模事業者向けに、業務整理、無料AI活用チェック、個別相談、ミニ診断までつなぐAI業務改善診断のトップページです。"
     />
-    <meta property="og:title" content="AI業務改善診断 | 無料AI活用チェック" />
+    <meta property="og:title" content="AI業務改善診断 | 小規模事業者向けAI活用HP" />
     <meta
       property="og:description"
-      content="あなたの仕事の中で、AIに任せられる作業を見つけて、すぐ使える形に整える診断サービス。"
+      content="AIに任せやすい業務を整理し、無料チェックから個別相談までつなぐ実務型のAI業務改善サービス。"
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/ai-diagnosis-hero.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="page-home">
     <header class="site-header">
-      <a class="logo" href="#top" aria-label="AI業務改善診断 トップへ">
+      <a class="logo" href="index.html" aria-label="AI業務改善診断 トップへ">
         <span class="logo-mark">AI</span>
         <span>AI業務改善診断</span>
       </a>
-      <nav class="nav" aria-label="主要ナビゲーション">
-        <a href="#check">無料チェック</a>
-        <a href="#service">サービス</a>
-        <a href="#price">料金</a>
-        <a class="nav-cta" href="#check">診断する</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="global-nav">
+        メニュー
+      </button>
+      <nav class="nav" id="global-nav" aria-label="主要ナビゲーション">
+        <a class="is-current" href="index.html">トップ</a>
+        <a href="service.html">サービス</a>
+        <a href="faq.html">FAQ</a>
+        <a href="columns.html">コラム</a>
+        <a class="nav-cta" href="#check">無料チェック</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero">
+    <main>
+      <section class="hero hero-home">
         <div class="hero-copy">
           <p class="eyebrow">個人事業主・小規模事業者向け</p>
-          <h1>AIを使いたいけど、何から始めればいいかわからない事業者へ</h1>
+          <h1>AIを使いたいけど、何から始めればいいかわからない方へ</h1>
           <p class="lead">
-            いまの業務を整理し、AIに任せられる作業を見つけ、
-            すぐ使えるテンプレートと運用ルールまで整えます。
+            ツール比較の前に、いまの業務を整理します。AIに任せやすい作業と、人が判断すべき作業を分け、
+            無料AI活用チェックから個別相談、ミニ診断まで無理なくつなげます。
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#check">無料AI活用チェックを受ける</a>
-            <a class="button secondary" href="#service">サービス内容を見る</a>
+            <a class="button secondary" href="service.html">サービス内容を見る</a>
           </div>
           <dl class="hero-metrics" aria-label="サービスの特徴">
             <div>
@@ -50,44 +54,86 @@
               <dd>無料チェック</dd>
             </div>
             <div>
-              <dt>3〜5個</dt>
-              <dd>改善候補を整理</dd>
+              <dt>3段階</dt>
+              <dd>無料から相談へ</dd>
             </div>
             <div>
-              <dt>30日</dt>
-              <dd>導入支援プランあり</dd>
+              <dt>毎日</dt>
+              <dd>コラム更新運用</dd>
             </div>
           </dl>
         </div>
         <figure class="hero-visual">
-          <img src="assets/ai-diagnosis-hero.png" alt="業務の棚卸しからAI活用ポイントを整理する診断イメージ" />
+          <img src="assets/ai-diagnosis-hero.png" alt="業務整理からAI活用ポイントを見つけるAI業務改善診断のイメージ" />
         </figure>
+      </section>
+
+      <section class="section intro-strip" aria-labelledby="intro-strip-title">
+        <div class="strip-card">
+          <p class="eyebrow">対象者</p>
+          <h2 id="intro-strip-title">発信、問い合わせ、資料づくりに時間がかかる事業者向け</h2>
+          <p>
+            AIを仕事に入れたい気持ちはあるが、何から着手すべきか整理できていない方向けに、
+            業務の棚卸しと最初の運用設計を支援します。
+          </p>
+        </div>
       </section>
 
       <section class="section problem" aria-labelledby="problem-title">
         <div class="section-head">
-          <p class="eyebrow">よくある状態</p>
-          <h2 id="problem-title">ChatGPTを触っただけで、仕事は変わっていない</h2>
+          <p class="eyebrow">よくある悩み</p>
+          <h2 id="problem-title">AIを触っただけで終わる会社には、共通の止まり方があります</h2>
           <p>
-            AIツールを増やす前に、まずは業務の棚卸しが必要です。
-            どの作業をAIに任せ、どこを人が判断するかを整理します。
+            多くのケースで足りないのはツールの数ではなく、どの業務にどう入れるかという設計です。
+            まずは現場で繰り返している作業から切り分けます。
           </p>
         </div>
         <div class="issue-grid">
           <article>
             <span>01</span>
-            <h3>使い道が曖昧</h3>
-            <p>「何に使えばいいか」が決まらず、試して終わってしまう。</p>
+            <h3>使い道が決まっていない</h3>
+            <p>とりあえず触ってみたが、仕事に落とし込む場所が曖昧なまま止まっている。</p>
           </article>
           <article>
             <span>02</span>
-            <h3>毎回ゼロから作業</h3>
-            <p>メール、投稿、資料作成を毎回手作業で進めている。</p>
+            <h3>毎回ゼロから作っている</h3>
+            <p>メール返信、SNS投稿、資料作成が属人的で、テンプレート化されていない。</p>
           </article>
           <article>
             <span>03</span>
-            <h3>ルールがない</h3>
-            <p>機密情報や著作権が不安で、チームに使わせにくい。</p>
+            <h3>ルールがないまま不安</h3>
+            <p>機密情報、著作権、専門判断の扱いが決まっておらず、チーム導入しにくい。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section route-section" aria-labelledby="route-title">
+        <div class="section-head">
+          <p class="eyebrow">サービス導線</p>
+          <h2 id="route-title">まず軽く確認し、必要な分だけ次に進める構成です</h2>
+          <p>
+            いきなり導入支援を売り込むのではなく、無料AI活用チェックで入口を軽くし、
+            必要に応じて個別相談やミニ診断につなげます。
+          </p>
+        </div>
+        <div class="route-grid">
+          <article>
+            <p class="route-step">STEP 1</p>
+            <h3>無料AI活用チェック</h3>
+            <p>AIに任せやすい作業と、整理が必要な課題を入口で確認します。</p>
+            <a class="text-link" href="#check">無料チェックへ進む</a>
+          </article>
+          <article>
+            <p class="route-step">STEP 2</p>
+            <h3>個別相談</h3>
+            <p>現在の業務と不安点を整理し、何から始めるかを絞り込みます。</p>
+            <a class="text-link" href="service.html">相談の流れを見る</a>
+          </article>
+          <article>
+            <p class="route-step">STEP 3</p>
+            <h3>ミニ診断 / 導入支援</h3>
+            <p>優先業務、初期テンプレート、運用ルールのたたき台まで整えます。</p>
+            <a class="text-link" href="service.html#plans">料金と内容を見る</a>
           </article>
         </div>
       </section>
@@ -97,8 +143,7 @@
           <p class="eyebrow">無料AI活用チェック</p>
           <h2 id="check-title">あなたの業務で、AIが効きやすい場所を確認します</h2>
           <p>
-            回答後、このページ上で簡易診断タイプを表示します。
-            実運用ではGoogleフォームや予約フォームに接続してください。
+            回答後、このページ上で簡易診断タイプを表示します。実運用ではGoogleフォームや予約フォームに接続してください。
           </p>
         </div>
 
@@ -199,122 +244,70 @@
         </aside>
       </section>
 
-      <section class="section" id="service" aria-labelledby="service-title">
+      <section class="section content-preview" aria-labelledby="content-preview-title">
         <div class="section-head">
-          <p class="eyebrow">サービス内容</p>
-          <h2 id="service-title">AIツールの説明ではなく、仕事への入れ方を設計します</h2>
+          <p class="eyebrow">毎日配信の受け皿</p>
+          <h2 id="content-preview-title">SNSで伝えきれない内容は、HP内のコラムで深掘りします</h2>
+          <p>
+            日々の投稿テーマを、HP内のコラムに蓄積する設計です。SNSから流入した人が、HP側で詳しい説明と無料チェックへ進めます。
+          </p>
         </div>
-        <div class="service-grid">
-          <article>
-            <h3>業務の棚卸し</h3>
-            <p>繰り返し作業、属人化、時間のかかる作業を整理します。</p>
+        <div class="article-grid">
+          <article class="article-card">
+            <p class="article-meta">業務整理</p>
+            <h3>ChatGPTを触っただけで終わる理由</h3>
+            <p>AIが定着しない原因を、ツール不足ではなく業務設計の不足として整理します。</p>
           </article>
-          <article>
-            <h3>AI化ポイント発見</h3>
-            <p>AIに任せる作業、人が判断する作業を分けます。</p>
+          <article class="article-card">
+            <p class="article-meta">業種別</p>
+            <h3>士業ならAIをどこに使うか</h3>
+            <p>専門判断の代替ではなく、周辺業務の下書きと整理に絞った活用例です。</p>
           </article>
-          <article>
-            <h3>テンプレート作成</h3>
-            <p>メール、投稿、資料、マニュアル用のプロンプトを作ります。</p>
-          </article>
-          <article>
-            <h3>運用ルール整備</h3>
-            <p>機密情報、著作権、チェック体制の基本ルールを整えます。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section price" id="price" aria-labelledby="price-title">
-        <div class="section-head">
-          <p class="eyebrow">料金</p>
-          <h2 id="price-title">小さく試して、必要な分だけ導入できます</h2>
-        </div>
-        <div class="price-grid">
-          <article>
-            <h3>無料AI活用チェック</h3>
-            <p class="price-tag">0円</p>
-            <ul>
-              <li>3分の簡易チェック</li>
-              <li>AI活用タイプの確認</li>
-              <li>個別相談への案内</li>
-            </ul>
-          </article>
-          <article class="featured">
-            <h3>AI業務改善ミニ診断</h3>
-            <p class="price-tag">30,000円〜</p>
-            <ul>
-              <li>60分ヒアリング</li>
-              <li>改善候補3〜5個</li>
-              <li>すぐ使えるプロンプト3個</li>
-            </ul>
-          </article>
-          <article>
-            <h3>AI導入スターターキット</h3>
-            <p class="price-tag">100,000円〜</p>
-            <ul>
-              <li>導入ロードマップ</li>
-              <li>プロンプト10個</li>
-              <li>AI利用ルール</li>
-            </ul>
+          <article class="article-card">
+            <p class="article-meta">発信改善</p>
+            <h3>SNS投稿が続かない人のAI活用</h3>
+            <p>発信の負担を減らしつつ、営業導線を崩さない使い方をまとめます。</p>
           </article>
         </div>
-      </section>
-
-      <section class="section flow" aria-labelledby="flow-title">
-        <div class="section-head">
-          <p class="eyebrow">進め方</p>
-          <h2 id="flow-title">無料チェックから導入までの流れ</h2>
+        <div class="section-actions">
+          <a class="button secondary" href="columns.html">コラム一覧を見る</a>
         </div>
-        <ol class="flow-list">
-          <li><span>1</span>無料チェックに回答</li>
-          <li><span>2</span>課題とAI活用タイプを確認</li>
-          <li><span>3</span>必要に応じて個別相談</li>
-          <li><span>4</span>ミニ診断または導入支援を実施</li>
-        </ol>
-      </section>
-
-      <section class="section faq" aria-labelledby="faq-title">
-        <div class="section-head">
-          <p class="eyebrow">FAQ</p>
-          <h2 id="faq-title">よくある質問</h2>
-        </div>
-        <details>
-          <summary>AI初心者でも大丈夫ですか。</summary>
-          <p>大丈夫です。ツールの使い方より先に、どの業務に使うべきかを整理します。</p>
-        </details>
-        <details>
-          <summary>機密情報を入力する必要はありますか。</summary>
-          <p>ありません。フォームや初回相談では、顧客名簿や個人情報の詳細は入力しないでください。</p>
-        </details>
-        <details>
-          <summary>どんな業種に向いていますか。</summary>
-          <p>士業、店舗、講師業、EC、制作業など、文章作成・顧客対応・発信が多い事業と相性が良いです。</p>
-        </details>
-        <details>
-          <summary>必ず売上が上がりますか。</summary>
-          <p>売上向上を保証するものではありません。業務整理、時間削減、品質安定、属人化解消を目的に支援します。</p>
-        </details>
       </section>
 
       <section class="section caution" aria-labelledby="caution-title">
-        <h2 id="caution-title">安心して使うための注意事項</h2>
+        <div class="section-head">
+          <p class="eyebrow">注意事項</p>
+          <h2 id="caution-title">専門判断や機密情報は、そのままAIに任せない前提で進めます</h2>
+        </div>
         <p>
-          医療、法律、金融、税務など専門判断が必要な内容は、必ず専門家の確認を前提にしてください。
+          医療、法律、金融、税務、労務など専門判断が必要な内容は、必ず専門家の確認を前提にしてください。
           AIの回答はそのまま使わず、事実確認と人の判断を挟む運用をおすすめします。
         </p>
       </section>
 
       <section class="final-cta" aria-labelledby="final-cta-title">
-        <h2 id="final-cta-title">まずは、あなたの業務でAIが効く場所を確認しませんか。</h2>
-        <a class="button primary" href="#check">無料AI活用チェックを受ける</a>
+        <div class="final-cta-inner">
+          <p class="eyebrow">まずは入口確認から</p>
+          <h2 id="final-cta-title">あなたの業務でAIが効く場所を、無料で整理しませんか</h2>
+          <p>業務整理の入口は軽く、次の提案は必要な場合だけ。売り込み前提ではなく、整理前提の導線です。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#check">無料AI活用チェックを受ける</a>
+            <a class="button secondary light" href="faq.html">不安な点を先に確認する</a>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div>
         <p class="footer-brand">AI業務改善診断</p>
-        <p>このLPは初期検証用です。実運用では問い合わせ先、予約リンク、プライバシーポリシーを設定してください。</p>
+        <p>このサイトは初期検証用です。実運用では予約リンク、問い合わせ先、法務ページURLを確定してください。</p>
       </div>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="service.html">サービス</a>
+        <a href="faq.html">FAQ</a>
+        <a href="columns.html">コラム</a>
+      </nav>
       <nav class="social-links" aria-label="SNSリンク">
         <a href="https://youtube.com/@zero_ai_work?si=kjpFJVSwKcxenAoQ" target="_blank" rel="noreferrer">YouTube</a>
         <a href="https://x.com/0lbzt?s=11" target="_blank" rel="noreferrer">X</a>

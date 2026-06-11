@@ -1,0 +1,34 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/index.html"
+    },
+    {
+      "source": "/service",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/service.html"
+    },
+    {
+      "source": "/faq",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/faq.html"
+    },
+    {
+      "source": "/columns",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/columns.html"
+    },
+    {
+      "source": "/assets/:match*",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/assets/:match*"
+    },
+    {
+      "source": "/style.css",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/style.css"
+    },
+    {
+      "source": "/script.js",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/script.js"
+    }
+  ]
+}
