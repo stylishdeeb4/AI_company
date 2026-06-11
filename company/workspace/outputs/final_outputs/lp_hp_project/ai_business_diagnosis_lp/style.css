@@ -308,6 +308,25 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.micro-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.micro-points span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  border: 1px solid rgba(22, 33, 38, 0.08);
+  border-radius: 999px;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.76);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .issue-grid,
 .route-grid,
 .service-grid,
@@ -446,6 +465,10 @@ fieldset {
   background: linear-gradient(180deg, rgba(237, 242, 242, 0.76) 0%, rgba(247, 244, 238, 0) 100%);
 }
 
+.outcomes-section {
+  background: linear-gradient(180deg, rgba(239, 230, 214, 0.42) 0%, rgba(247, 244, 238, 0) 100%);
+}
+
 .service-card ul,
 .price-grid ul,
 .detail-card ul {
@@ -465,6 +488,47 @@ fieldset {
   color: var(--teal-dark);
   font-size: 28px;
   font-weight: 700;
+}
+
+.comparison-section {
+  background: linear-gradient(180deg, rgba(222, 235, 227, 0.45) 0%, rgba(247, 244, 238, 0) 100%);
+}
+
+.comparison-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(22, 33, 38, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 10px 30px rgba(16, 24, 29, 0.05);
+}
+
+.comparison-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(22, 33, 38, 0.08);
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table thead th {
+  background: rgba(15, 109, 103, 0.08);
+  font-size: 14px;
+}
+
+.comparison-table tbody th {
+  width: 18%;
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.comparison-table td {
+  color: var(--muted);
 }
 
 .timeline {
@@ -546,6 +610,46 @@ fieldset {
   background: linear-gradient(135deg, rgba(15, 109, 103, 0.08), rgba(255, 255, 255, 0.9));
 }
 
+.fit-section {
+  background: linear-gradient(180deg, rgba(237, 242, 242, 0.6) 0%, rgba(247, 244, 238, 0) 100%);
+}
+
+.fit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.fit-card {
+  border: 1px solid rgba(22, 33, 38, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px rgba(16, 24, 29, 0.05);
+}
+
+.fit-card ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.fit-label {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.fit-card.is-good {
+  border-color: rgba(15, 109, 103, 0.2);
+  background: linear-gradient(180deg, rgba(222, 235, 227, 0.55), rgba(255, 255, 255, 0.96));
+}
+
+.fit-card.is-caution {
+  border-color: rgba(241, 177, 74, 0.24);
+  background: linear-gradient(180deg, rgba(241, 177, 74, 0.12), rgba(255, 255, 255, 0.96));
+}
+
 .column-filters {
   display: flex;
   flex-wrap: wrap;
@@ -579,6 +683,53 @@ fieldset {
 .article-date {
   color: var(--muted);
   font-size: 13px;
+}
+
+.checklist-box {
+  margin-top: 26px;
+  border: 1px solid rgba(22, 33, 38, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.checklist {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.article-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(300px, 1.3fr);
+  gap: 28px;
+}
+
+.article-sidebar,
+.article-body {
+  border: 1px solid rgba(22, 33, 38, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.article-sidebar ul,
+.article-body ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.article-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(22, 33, 38, 0.08);
+}
+
+.article-section:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
 }
 
 .caution {
@@ -641,6 +792,7 @@ fieldset {
   .hero,
   .page-hero,
   .faq-layout,
+  .article-layout,
   .site-footer {
     grid-template-columns: 1fr;
   }
@@ -655,7 +807,8 @@ fieldset {
   .detail-grid,
   .article-grid,
   .price-grid,
-  .quote-grid {
+  .quote-grid,
+  .fit-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -706,7 +859,9 @@ fieldset {
   .detail-grid,
   .article-grid,
   .price-grid,
-  .quote-grid {
+  .quote-grid,
+  .fit-grid,
+  .micro-points {
     grid-template-columns: 1fr;
   }
 
