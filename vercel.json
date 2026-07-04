@@ -19,6 +19,38 @@
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/columns.html"
     },
     {
+      "source": "/column-ai-tasks",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-tasks.html"
+    },
+    {
+      "source": "/column-chatgpt-only",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-chatgpt-only.html"
+    },
+    {
+      "source": "/column-free-check",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-free-check.html"
+    },
+    {
+      "source": "/column-salon-ai",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-salon-ai.html"
+    },
+    {
+      "source": "/column-shigyo-ai",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-shigyo-ai.html"
+    },
+    {
+      "source": "/column-sns-ai",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-sns-ai.html"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/robots.txt"
+    },
+    {
       "source": "/assets/:match*",
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/assets/:match*"
     },
@@ -29,6 +61,10 @@
     {
       "source": "/script.js",
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/script.js"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/:path*"
     }
   ]
 }
