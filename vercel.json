@@ -19,6 +19,22 @@
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/columns.html"
     },
     {
+      "source": "/column-ai-agent",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-agent.html"
+    },
+    {
+      "source": "/column-ai-subsidy",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-subsidy.html"
+    },
+    {
+      "source": "/column-ai-secretary",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-secretary.html"
+    },
+    {
+      "source": "/column-ai-sidejob",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-sidejob.html"
+    },
+    {
       "source": "/column-ai-ng-info",
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-ng-info.html"
     },
