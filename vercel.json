@@ -19,6 +19,10 @@
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/columns.html"
     },
     {
+      "source": "/column-ai-10tasks",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-10tasks.html"
+    },
+    {
       "source": "/column-ai-tasks",
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-tasks.html"
     },
