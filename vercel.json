@@ -19,6 +19,18 @@
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/columns.html"
     },
     {
+      "source": "/column-ai-ng-info",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-ng-info.html"
+    },
+    {
+      "source": "/column-ai-inquiry-reply",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-inquiry-reply.html"
+    },
+    {
+      "source": "/column-ai-first-step",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-first-step.html"
+    },
+    {
       "source": "/column-ai-10tasks",
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-10tasks.html"
     },
