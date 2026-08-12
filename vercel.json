@@ -19,6 +19,10 @@
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/columns.html"
     },
     {
+      "source": "/column-ai-prompt",
+      "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ai-prompt.html"
+    },
+    {
       "source": "/column-ec-ai",
       "destination": "/company/workspace/outputs/final_outputs/lp_hp_project/ai_business_diagnosis_lp/column-ec-ai.html"
     },
