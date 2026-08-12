@@ -3,19 +3,81 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>士業ならAIをどこに使うか | AI業務改善診断</title>
-    <meta name="description" content="士業向けの仮想ケースとして、AIをどこに使いやすいかを整理したコラムです。" />
-    <meta property="og:title" content="士業ならAIをどこに使うか | AI業務改善診断" />
-    <meta property="og:description" content="士業向けの仮想ケースとして、AIをどこに使いやすいかを整理したコラムです。" />
+    <title>士業ならAIをどこに使うか|専門判断の前後にある5つの活用場面 | AI業務改善診断</title>
+    <meta
+      name="description"
+      content="税理士・行政書士・社労士など士業のAI活用は、専門判断の代替ではなく「判断の前後」から。問い合わせ整理・面談メモ・FAQ草案など5つの活用場面と、避けるべき使い方を仮想ケースで解説します。"
+    />
+    <meta property="og:title" content="士業ならAIをどこに使うか|専門判断の前後にある5つの活用場面" />
+    <meta property="og:description" content="士業のAI活用は専門判断の代替ではなく「判断の前後」から。5つの活用場面と避けるべき使い方を解説します。" />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="https://hukugyou.blog/assets/ai-diagnosis-hero.png" />
     <meta property="og:url" content="https://hukugyou.blog/column-shigyo-ai" />
     <link rel="canonical" href="https://hukugyou.blog/column-shigyo-ai" />
     <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://hukugyou.blog/column-shigyo-ai#article",
+          "headline": "士業ならAIをどこに使うか|専門判断の前後にある5つの活用場面",
+          "description": "士業向けに、専門判断の前後にあるAI活用場面5つと避けるべき使い方を仮想ケースで解説します。",
+          "image": "https://hukugyou.blog/assets/ai-diagnosis-hero.png",
+          "datePublished": "2026-08-02",
+          "dateModified": "2026-08-02",
+          "author": { "@type": "Organization", "name": "AI業務改善診断" },
+          "publisher": { "@type": "Organization", "name": "AI業務改善診断" },
+          "mainEntityOfPage": "https://hukugyou.blog/column-shigyo-ai"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "トップ", "item": "https://hukugyou.blog/" },
+            { "@type": "ListItem", "position": 2, "name": "コラム一覧", "item": "https://hukugyou.blog/columns" },
+            { "@type": "ListItem", "position": 3, "name": "士業ならAIをどこに使うか", "item": "https://hukugyou.blog/column-shigyo-ai" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "士業がAIを使うのはリスクではありませんか?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "専門判断そのものをAIに任せればリスクですが、判断の前後にある事務作業(問い合わせ整理、メモの要約、説明文の草案)への利用は現実的です。依頼者の個人情報を入力しないルールを先に決めることが前提です。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "依頼者との面談内容をAIに要約させてもよいですか?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "氏名・住所・具体的な金額など個人を特定できる情報を伏せた形であれば、要点整理の補助として有効です。守秘義務に関わる情報はそのまま入力しない運用を徹底してください。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "AIの回答をそのまま依頼者への回答に使ってよいですか?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "使ってはいけません。法律・税務・労務の回答には資格者としての責任が伴います。AIは論点の洗い出しや説明文の下書きまでに使い、最終回答は必ず専門家自身が確認・作成してください。"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <header class="site-header">
-      <a class="logo" href="index.html"><span class="logo-mark">AI</span><span>AI業務改善診断</span></a>
+      <a class="logo" href="index.html" aria-label="AI業務改善診断 トップへ">
+        <span class="logo-mark">AI</span>
+        <span>AI業務改善診断</span>
+      </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="global-nav">メニュー</button>
       <nav class="nav" id="global-nav" aria-label="主要ナビゲーション">
         <a href="index.html">トップ</a>
@@ -25,48 +87,102 @@
         <a class="nav-cta" href="index.html#check">無料チェック</a>
       </nav>
     </header>
+
     <main>
       <section class="page-hero">
         <div class="page-hero-copy">
           <p class="eyebrow">Column / 仮想ケース</p>
           <h1>士業ならAIをどこに使うか</h1>
-          <p class="lead">このページは仮想ケースです。専門判断の代替ではなく、周辺業務の整理と下書きに限定して考えます。</p>
+          <p class="lead">専門判断の代替ではなく、「判断の前後」にある事務を任せます。税理士・行政書士・社労士などの一人事務所を想定した仮想ケースです。</p>
         </div>
       </section>
+
       <section class="section">
         <div class="article-layout">
           <aside class="article-sidebar">
-            <p class="eyebrow">向きやすい場面</p>
+            <p class="eyebrow">要点</p>
             <ul>
-              <li>問い合わせの分類</li>
-              <li>面談メモの整理</li>
-              <li>FAQや説明文の下書き</li>
+              <li>任せるのは専門判断の「前後」</li>
+              <li>依頼者情報は伏せて入力する</li>
+              <li>最終回答は必ず資格者が作る</li>
             </ul>
           </aside>
           <article class="article-body">
             <section class="article-section">
-              <h2>任せやすいのは専門判断の前後です</h2>
-              <p>士業の現場では、最終判断そのものより、問い合わせの整理、面談内容の要約、説明文の草案作成の方がAIを入れやすい領域です。</p>
+              <h2>士業の仕事は「判断」と「その前後」に分けられる</h2>
+              <p>士業の価値は専門判断にあります。そして専門判断の前後には、問い合わせの整理、ヒアリング内容の記録、説明資料の作成といった、判断ではない仕事が大量にあります。AIを入れる場所はここです。</p>
+              <p>判断そのものに手を出さないと決めてしまえば、士業は実はAI活用と相性の良い業種です。文章量が多く、説明の型が決まっている仕事が多いからです。</p>
             </section>
+
+            <section class="article-section">
+              <h2>活用場面5つ</h2>
+              <ol>
+                <li><strong>問い合わせの分類と一次返信の下書き</strong> — 新規相談の内容を種類別に整理し、面談日程の案内や必要書類のリストを添えた返信案を作らせます(<a href="column-ai-inquiry-reply.html">手順はこちら</a>)。</li>
+                <li><strong>面談メモの要点整理</strong> — ヒアリング内容を「事実関係」「論点」「宿題」に分類。個人が特定できる情報は伏せた形で使います。</li>
+                <li><strong>FAQ・説明文の草案</strong> — 「毎回同じ説明をしている内容」をFAQやしおりの形に整えさせ、面談時間を本題に使えるようにします。</li>
+                <li><strong>お知らせ・コラムの下書き</strong> — 制度改正の案内や事務所ブログのたたき台。専門家としての見解と正確性の確認は自分で行います。</li>
+                <li><strong>手続きの案内文・チェックリスト</strong> — 依頼者に渡す「必要書類リスト」「手続きの流れ」の文面を整えさせます。</li>
+              </ol>
+            </section>
+
             <section class="article-section">
               <h2>避けるべき使い方</h2>
-              <p>法的判断、税務判断、個別事情に応じた最終回答は、AIだけで完結させない前提が必要です。</p>
+              <ul>
+                <li><strong>法的判断・税務判断・労務判断の代替</strong> — AIの回答には誤りが含まれ得ます。資格者としての責任が伴う回答は、必ず自分で確認・作成してください。</li>
+                <li><strong>依頼者情報の入力</strong> — 氏名、住所、具体的な金額、事件の詳細など、守秘義務に関わる情報はそのまま入力しない運用を徹底します(<a href="column-ai-ng-info.html">入力ルールの詳細</a>)。</li>
+                <li><strong>根拠の確認をしない引用</strong> — 条文や判例をAIに出させた場合、実在と最新性を必ず原典で確認してください。</li>
+              </ul>
             </section>
+
             <section class="article-section">
               <h2>試しやすいスタート地点</h2>
-              <p>まずは、毎回似た説明をしている内容や、初回ヒアリング後の整理メモのような補助業務から始めると安全です。</p>
+              <p>最初の一歩には、依頼者情報を含まない業務が安全です。「毎回同じ説明をしている内容のFAQ化」か「事務所ブログのたたき台」から始めて、AIの精度と自分の確認の流れをつかんでください。進め方の型は<a href="column-ai-first-step.html">AI導入の最初の一歩</a>と同じです。</p>
             </section>
+
             <section class="article-section">
+              <h2>よくある質問</h2>
+              <section class="faq-item">
+                <h3 class="faq-question">士業がAIを使うのはリスクではありませんか</h3>
+                <p class="faq-answer">専門判断そのものをAIに任せればリスクですが、判断の前後にある事務作業(問い合わせ整理、メモの要約、説明文の草案)への利用は現実的です。依頼者の個人情報を入力しないルールを先に決めることが前提です。</p>
+              </section>
+              <section class="faq-item">
+                <h3 class="faq-question">依頼者との面談内容をAIに要約させてもよいですか</h3>
+                <p class="faq-answer">氏名・住所・具体的な金額など個人を特定できる情報を伏せた形であれば、要点整理の補助として有効です。守秘義務に関わる情報はそのまま入力しない運用を徹底してください。</p>
+              </section>
+              <section class="faq-item">
+                <h3 class="faq-question">AIの回答をそのまま依頼者への回答に使ってよいですか</h3>
+                <p class="faq-answer">使ってはいけません。法律・税務・労務の回答には資格者としての責任が伴います。AIは論点の洗い出しや説明文の下書きまでに使い、最終回答は必ず専門家自身が確認・作成してください。</p>
+              </section>
+            </section>
+
+            <section class="article-section">
+              <h2>次の一歩</h2>
+              <p>事務所の業務のどこからAIを試すべきか、無料AI活用チェックで優先順位を整理できます。守秘義務に関わる情報の入力は不要です。</p>
               <div class="hero-actions">
                 <a class="button primary" href="index.html#check">無料AI活用チェックを受ける</a>
                 <a class="button secondary" href="columns.html">コラム一覧へ戻る</a>
               </div>
             </section>
+
+            <section class="article-section">
+              <h2>関連記事</h2>
+              <ul>
+                <li><a href="column-ai-ng-info.html">AIに入れてはいけない情報とは?守るべき入力ルール5つ</a></li>
+                <li><a href="column-ai-inquiry-reply.html">問い合わせ返信をAIで楽にする方法</a></li>
+                <li><a href="column-ai-secretary.html">一人ビジネスの「AI秘書」活用術</a></li>
+              </ul>
+            </section>
           </article>
         </div>
       </section>
     </main>
-    <footer class="site-footer"><div><p class="footer-brand">AI業務改善診断</p></div></footer>
+
+    <footer class="site-footer">
+      <div>
+        <p class="footer-brand">AI業務改善診断</p>
+        <p>業務整理から始めるAI活用の考え方をまとめています。</p>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
