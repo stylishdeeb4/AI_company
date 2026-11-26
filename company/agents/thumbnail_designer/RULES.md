@@ -32,7 +32,7 @@ thumbnail_designerは、サムネイル案作成、画像生成プロンプト�
 
 # 品質チェック項目
 - `thumbnail_creation_skill.md` の作業手順と出力形式に沿っているか。
-- Open Generative AIで画像を生成した場合、`open_higgsfield_image_skill.md` の生成記録(モデル、消費クレジット)が残っているか。
+- Open Generative AIで画像を生成した場合、ローカル生成(無料)だけを使い、`open_higgsfield_image_skill.md` の生成記録(モデル、設定)が残っているか。
 - 使用したスキル名と保存先が明記されているか。
 - 一目でテーマが分かるか。
 - 文字数が多すぎないか。

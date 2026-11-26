@@ -33,7 +33,7 @@ content_makerは、YouTube企画作成、台本作成、ショート動画構成
 
 # 品質チェック項目
 - `youtube_script_skill.md` の作業手順と出力形式に沿っているか。
-- Open Generative AIで映像を生成した場合、`open_higgsfield_video_skill.md` のシーン表と生成記録(モデル、消費クレジット)が残っているか。
+- Open Generative AIで映像を生成した場合、ローカル生成(無料)と無料ツールだけを使い、`open_higgsfield_video_skill.md` のシーン表と生成記録が残っているか。
 - 使用したスキル名と保存先が明記されているか。
 - 視聴者の悩みや関心が明確か。
 - 冒頭に見る理由があるか。

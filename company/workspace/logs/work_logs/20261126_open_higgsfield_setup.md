@@ -32,6 +32,23 @@ AI画像・動画生成アプリ Open Higgsfield AI をAI会社に導入する�
 - 更新: `company/agents/legal_checker/RULES.md`(AI生成物のチェック項目を追加)
 - 更新: `.vercelignore`(導入ガイドをWebサイトに公開しない)
 
+## 追記: 無料運用への変更(同日)
+ユーザーから「無料で行いたい」と依頼があり、運用方針を0円(ローカル生成のみ)に変更した。
+
+### 追加の調査結果
+- 無料で使えるのはデスクトップアプリのローカル生成だけ。⚡ Local があるのは Image Studio と Video Studio のみで、Lip Sync、Cinema Studio、ブラウザ版などはクラウド(有料)専用。
+- MuAPI の無料エンドポイントは透かし処理や音声系だけで、画像・動画生成には使えない。
+- 画像のローカル生成(sd.cpp)は全PCで可能。16:9の出力は Z-Image / SDXL が 1792×1024、SD 1.5系が 896×512(アプリのソース `electron/lib/localInference.js` で確認)。
+- 動画のローカル生成(Wan2GP)は NVIDIA/AMD のGPUが必要で、Macは不可。
+- ライセンス: Z-Image と Wan 2.1/2.2 は Apache 2.0、SDXL は CreativeML Open RAIL++-M、Dreamshaper 8 は CreativeML OpenRAIL-M。Realistic Vision v5.1、Anything v5 などは未確認。
+
+### 変更したファイル
+- `company/workspace/outputs/final_outputs/20261126_open_higgsfield_setup_guide.md`(無料運用版に書き直し。有料化は付録に移動)
+- `company/agents/thumbnail_designer/skills/open_higgsfield_image_skill.md`(ローカルモデルのみ)
+- `company/agents/content_maker/skills/open_higgsfield_video_skill.md`(静止画+編集ソフトを標準に。Wan2GPは使えるPCのみ)
+- thumbnail_designer、content_maker、legal_checker の RULES.md(消費クレジットの記録を、0円運用の確認とライセンス一覧の参照に変更)
+- チケットの完了条件とユーザー作業
+
 ## 残りの作業
-- ユーザー本人のPCへのインストールとMuAPIキーの登録(AI社員は代行できない)。
-- テスト生成の消費クレジットを確認し、1本あたりの生成予算を決める。
+- ユーザー本人のPCへのインストールとローカルモデルの導入(AI社員は代行できない)。
+- テスト生成の時間を確認し、ユーザーのPCで使える標準モデルを確定する。
