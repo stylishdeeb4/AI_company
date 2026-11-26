@@ -51,6 +51,7 @@ YouTubeサムネイル作成スキル
 7. 画像生成プロンプトを作る
    - 画像の主役、背景、構図、色、雰囲気、光、表情、禁止要素を明記します。
    - 文字は画像生成で入れず、Canvaなどで後から入れる前提にします。
+   - 実際に画像を生成する場合は `company/agents/thumbnail_designer/skills/firefly_image_skill.md`(標準、Adobe Firefly 無料)に進みます。
 
 8. タイトルとの整合性を確認する
    - タイトルとサムネイルが矛盾していないか確認します。

@@ -1,5 +1,7 @@
 # Open Higgsfield(現名称: Open Generative AI)導入ガイド【無料運用版】
 
+> **2026-11-26 更新:** AI会社の標準の画像・動画生成ツールは **Adobe Firefly(無料プラン)** に変更しました(チケット `company/workspace/tickets/waiting/20261126_firefly_setup.md`)。ユーザーのPCではローカル生成が遅いため、このアプリは予備として使います。
+
 ## 役割
 AI会社でオープンソースのAI画像・動画生成アプリ「Open Higgsfield AI」(現名称「Open Generative AI」)を **0円で** 導入し、サムネイル制作とショート動画制作に使えるようにするための手順書です。
 

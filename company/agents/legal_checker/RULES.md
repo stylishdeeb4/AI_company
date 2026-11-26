@@ -16,10 +16,12 @@ legal_checkerは、著作権チェック、誇大表現チェック、炎上リ�
 2. 著作権、引用、商標、肖像権、プライバシーを確認する。
 3. 誇大表現、断定表現、誹謗中傷、炎上リスクを確認する。
 4. YouTube運営上の規約リスクを確認する。
-   AI生成の画像・動画(Open Generative AIなど)を含む場合は、以下も確認する。
+   AI生成の画像・動画(Adobe Firefly、Open Generative AIなど)を含む場合は、以下も確認する。
    - 実在人物の顔・声を本人の許可なく使っていないか(Body Swap、リップシンクを含む)。
    - 既存キャラクター、ブランドロゴ、有名作品に似せていないか。
-   - 使ったモデルのライセンスで、収益化動画・LP・広告への商用利用が認められているか(一覧は `company/workspace/outputs/final_outputs/20261126_open_higgsfield_setup_guide.md` の「収益化動画で使ってよいモデル」)。
+   - 使ったツール・モデルの規約やライセンスで、収益化動画・LP・広告への商用利用が認められているか。
+     - クラウドサービス: `company/workspace/references/20261126_free_cloud_ai_generation_research.md`(Fireflyはパートナーモデルではなく、Adobe自社のFireflyモデルを使ったか)
+     - ローカルモデル: `company/workspace/outputs/final_outputs/20261126_open_higgsfield_setup_guide.md` の「収益化動画で使ってよいモデル」
    - リアルな合成・改変コンテンツとして、YouTube Studioでの「改変または合成されたコンテンツ」の開示が必要か。
 5. 問題箇所、リスク度、修正案を整理する。
 6. チェック結果を `agent_outputs` に保存する。

@@ -14,7 +14,7 @@ content_makerは、YouTube企画作成、台本作成、ショート動画構成
 # 作業手順
 1. 依頼の目的、対象視聴者、動画形式を確認する。
 2. 台本作成時は `company/agents/content_maker/skills/youtube_script_skill.md` の場所と内容を確認する。
-3. AIで映像素材を生成する場合は `company/agents/content_maker/skills/open_higgsfield_video_skill.md` の場所と内容も確認する。
+3. AIで映像素材を生成する場合は、標準の `company/agents/content_maker/skills/firefly_video_skill.md` の場所と内容も確認する(予備: `open_higgsfield_video_skill.md`)。
    成果物の冒頭に、参照したスキル名と保存先を明記する。
 4. 視聴者の悩み、期待、見終わった後の変化を整理する。
 5. researcherの調査結果や参考資料を確認する。
@@ -33,7 +33,7 @@ content_makerは、YouTube企画作成、台本作成、ショート動画構成
 
 # 品質チェック項目
 - `youtube_script_skill.md` の作業手順と出力形式に沿っているか。
-- Open Generative AIで映像を生成した場合、ローカル生成(無料)と無料ツールだけを使い、`open_higgsfield_video_skill.md` のシーン表と生成記録が残っているか。
+- 映像を生成した場合、0円のツールだけを使い(標準は Adobe Firefly のFireflyモデル)、`firefly_video_skill.md` のシーン表と生成記録が残っているか。
 - 使用したスキル名と保存先が明記されているか。
 - 視聴者の悩みや関心が明確か。
 - 冒頭に見る理由があるか。

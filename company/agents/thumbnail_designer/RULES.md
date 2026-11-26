@@ -14,7 +14,7 @@ thumbnail_designerは、サムネイル案作成、画像生成プロンプト�
 # 作業手順
 1. 動画の目的、タイトル案、対象視聴者を確認する。
 2. サムネイル作成時は `company/agents/thumbnail_designer/skills/thumbnail_creation_skill.md` の場所と内容を確認する。
-3. 画像を実際に生成する場合は `company/agents/thumbnail_designer/skills/open_higgsfield_image_skill.md` の場所と内容も確認する。
+3. 画像を実際に生成する場合は、標準の `company/agents/thumbnail_designer/skills/firefly_image_skill.md` の場所と内容も確認する(予備: `open_higgsfield_image_skill.md`)。
    成果物の冒頭に、参照したスキル名と保存先を明記する。
 4. 視聴者が反応する感情や疑問を整理する。
 5. サムネイル文言、構図、配色、人物・物体・背景の方向性を作る。
@@ -32,7 +32,7 @@ thumbnail_designerは、サムネイル案作成、画像生成プロンプト�
 
 # 品質チェック項目
 - `thumbnail_creation_skill.md` の作業手順と出力形式に沿っているか。
-- Open Generative AIで画像を生成した場合、ローカル生成(無料)だけを使い、`open_higgsfield_image_skill.md` の生成記録(モデル、設定)が残っているか。
+- 画像を生成した場合、0円のツールだけを使い(標準は Adobe Firefly のFireflyモデル)、`firefly_image_skill.md` の生成記録が残っているか。
 - 使用したスキル名と保存先が明記されているか。
 - 一目でテーマが分かるか。
 - 文字数が多すぎないか。

@@ -1,5 +1,7 @@
 # スキル名
-Open Higgsfield(Open Generative AI)無料動画素材生成スキル
+Open Higgsfield(Open Generative AI)無料動画素材生成スキル(予備)
+
+> **このスキルは予備です。** 標準は `company/agents/content_maker/skills/firefly_video_skill.md`(Adobe Firefly)です。ユーザーのPCにはNVIDIA/AMDのGPUがないため、このスキルのうちAI動画(作り方C・D)は使えません。
 
 # 目的
 `youtube_script_skill.md` で作った台本をシーンに分け、Open Generative AI(旧名 Open Higgsfield AI)の **ローカル生成(無料)** と無料の動画編集ソフトで映像素材を作る。0円のまま、ショート動画と長尺動画の見た目の質を上げる。

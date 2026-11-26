@@ -1,3 +1,5 @@
+> **2026-11-26 更新:** 標準ツールは Adobe Firefly に変更(`company/workspace/tickets/waiting/20261126_firefly_setup.md`)。このチケットは予備ツールの導入として、急がない扱いにします。
+
 # 役割
 AI画像・動画生成アプリ Open Higgsfield AI(現名称 Open Generative AI)をAI会社に導入するための作業チケットです。
 

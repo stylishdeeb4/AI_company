@@ -59,3 +59,13 @@ AI画像・動画生成アプリ Open Higgsfield AI をAI会社に導入する�
 - 推奨: 画像・動画とも Adobe Firefly(無料プラン、Adobe自社のFireflyモデル)を標準候補とし、ChatGPT・Gemini・Ideogram を補助、ローカル生成を予備とする。
 - 各社の公式ページは作業環境のネットワーク制限で直接開けず、公式ドメインに絞った検索結果で確認した。
 - 標準ツールの決定とスキルへの反映は、ユーザーの判断待ち。
+
+## 追記: Firefly を標準に変更(同日)
+ユーザーの指示で、標準の画像・動画生成ツールを Adobe Firefly(無料プラン)に変更した。
+- 新規作成: `company/agents/thumbnail_designer/skills/firefly_image_skill.md`(予備ツールの順番: ChatGPT → Gemini → ローカル生成)
+- 新規作成: `company/agents/content_maker/skills/firefly_video_skill.md`(AI動画はフックなど重要なカットに絞り、残りは静止画+編集ソフト)
+- 新規作成: `company/workspace/tickets/waiting/20261126_firefly_setup.md`(ユーザーの始め方とテスト手順)
+- 更新: `open_higgsfield_image_skill.md`、`open_higgsfield_video_skill.md` を予備扱いに
+- 更新: `thumbnail_creation_skill.md` の手順7に Firefly スキルへの案内を追加
+- 更新: thumbnail_designer、content_maker、legal_checker の RULES.md、thumbnail_designer と content_maker の MEMORY.md
+- 更新: Open Higgsfield の導入ガイドとチケットに「予備」の注記

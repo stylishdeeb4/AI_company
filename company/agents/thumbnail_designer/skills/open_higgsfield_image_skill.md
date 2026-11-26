@@ -1,5 +1,7 @@
 # スキル名
-Open Higgsfield(Open Generative AI)無料画像生成スキル
+Open Higgsfield(Open Generative AI)無料画像生成スキル(予備)
+
+> **このスキルは予備です。** 標準は `company/agents/thumbnail_designer/skills/firefly_image_skill.md`(Adobe Firefly)です。Firefly、ChatGPT、Gemini の無料枠が使えない日や、回数を気にせず試したいときだけ使います。ユーザーのPCでは1枚数分以上かかる見込みです。
 
 # 目的
 `thumbnail_creation_skill.md` で決めたサムネイル案を、Open Generative AI(旧名 Open Higgsfield AI)の **ローカル生成(無料)** で実際の画像にする。生成条件を記録し、同じ品質の画像を再現できるようにする。
