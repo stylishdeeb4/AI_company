@@ -21,6 +21,8 @@
 - 成果物には参照したスキル名と保存先を明記する。
 
 # ユーザーの好み
+- 画像・動画生成は0円で行う(Open Generative AI のローカル生成のみ。2026-11-26)。
+- ユーザーのPCは Windows / Core i5-7200U / メモリ16GB。AI動画のローカル生成は不可、画像は Dreamshaper 8 が標準で1枚に数分以上かかる見込み。詳細は `company/workspace/tickets/waiting/20261126_open_higgsfield_setup.md`。
 - 実用的で、発信や商品作りにつながる内容を好む。
 - 抽象論だけでなく、すぐ行動できる構成を好む。
 - YouTube運営の成長に直結する提案を好む。
