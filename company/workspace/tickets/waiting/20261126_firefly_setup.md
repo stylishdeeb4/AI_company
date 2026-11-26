@@ -54,7 +54,7 @@ AI社員側の準備(スキル、ルール更新)は完了済みです。ユー�
 - [x] thumbnail_designer、content_maker、legal_checker の RULES.md を更新
 
 # ユーザー作業(確認待ち)
-- [ ] Adobe の無料アカウントを作って Firefly にログイン
+- [x] Adobe の無料アカウントを作って Firefly にログイン(2026-11-26)
 - [ ] Firefly モデルでテスト画像を1枚生成
 - [ ] Firefly モデルでテスト動画を1本生成
 - [ ] 1日に生成できた回数の目安をメモ
