@@ -52,3 +52,10 @@ AI画像・動画生成アプリ Open Higgsfield AI をAI会社に導入する�
 ## 残りの作業
 - ユーザー本人のPCへのインストールとローカルモデルの導入(AI社員は代行できない)。
 - テスト生成の時間を確認し、ユーザーのPCで使える標準モデルを確定する。
+
+## 追記: 無料クラウドサービスの調査(同日)
+- ユーザーのPC(Windows / Core i5-7200U / メモリ16GB / Intel HD Graphics 620)ではローカル生成が遅いため、無料のクラウド画像・動画生成サービスを調査した。
+- 調査資料: `company/workspace/references/20261126_free_cloud_ai_generation_research.md`
+- 推奨: 画像・動画とも Adobe Firefly(無料プラン、Adobe自社のFireflyモデル)を標準候補とし、ChatGPT・Gemini・Ideogram を補助、ローカル生成を予備とする。
+- 各社の公式ページは作業環境のネットワーク制限で直接開けず、公式ドメインに絞った検索結果で確認した。
+- 標準ツールの決定とスキルへの反映は、ユーザーの判断待ち。
